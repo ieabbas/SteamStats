@@ -30,14 +30,13 @@ totalGames = str(steam["response"]["game_count"])
 #Output total games owned
 print(totalGames)
 
-
 #Some logic for getting a random game from account with over 10 hours playtime
 steamGame = ""
 steamGames = []
 
 for num,item in enumerate (steam["response"]["games"]):
     num+=1
-    if item["playtime_forever"] > 600:
+    if item["playtime_forever"] > 0:
         steamGame = item["name"]
         steamGames.append(steamGame)
     
