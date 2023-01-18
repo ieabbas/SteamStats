@@ -1,7 +1,8 @@
 # CherrySteam
 A tool to pull user and game information from Valve's Steam platform. 
 
-#References
+<b><u>References</u></b>
+<br></br>
 <a href="https://developer.valvesoftware.com/wiki/Steam_Web_API#GetPlayerSummaries_.28v0001.29">Steam User API</a>
 
 Required: SteamID and Steam Web API Key
