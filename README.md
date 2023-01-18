@@ -1,10 +1,15 @@
 # CherrySteam
-A tool to pull information from Valve's Steam platform. 
+A tool to pull user and game information from Valve's Steam platform. 
 
+#References
+<a>Steam User API>https://developer.valvesoftware.com/wiki/Steam_Web_API#GetPlayerSummaries_.28v0001.29</a>
+
+Required: SteamID and Steam Web API Key
 
 Initial Use Case:
-1. Pull list of owned games + number of hours each game has been played
-2. Convert to JSON --> CSV to manually populate a Google Sheet
+- Pull list of owned games + number of hours each game has been played
+- Convert to JSON --> CSV to manually populate a Google Sheet
 
-Future Development:
-1. Automate pull of Steam information on weekly interval to populate Google Sheet
+v0.1
+- Tool prints total games owned to console
+- Tool prints name of game and playtime converted into hours
