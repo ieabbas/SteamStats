@@ -28,7 +28,7 @@ steam = r.json()
 totalGames = str(steam["response"]["game_count"])
 
 #Output total games owned
-print(totalGames)
+print("Cherrius owns a total of " + totalGames + " games")
 
 #Some logic for getting a random game from account with over 10 hours playtime
 steamGame = ""
@@ -39,6 +39,9 @@ for num,item in enumerate (steam["response"]["games"]):
     if item["playtime_forever"] > 0:
         steamGame = item["name"]
         steamGames.append(steamGame)
+        steamPlayTimeSeconds = item["playtime_forever"]
+        #Console output just to proof of concept the outputting of games I own
+        print("Cherrius has played the game " + item["name"] + " for " + str(round(float(steamPlayTimeSeconds)/60, 2)) + " hours total.")
     
 steamRec = "".join((random.sample(steamGames, k=1)))
 
