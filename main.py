@@ -21,7 +21,7 @@ r = requests.get(slink)
 steam = r.json()
 
 #JSON output with information about each game owned
-print(steam)
+#print(steam)
 #https://developer.valvesoftware.com/wiki/Steam_Web_API#GetOwnedGames_.28v0001.29
 
 #Getting integer value of total games owned
@@ -42,4 +42,4 @@ for num,item in enumerate (steam["response"]["games"]):
     
 steamRec = "".join((random.sample(steamGames, k=1)))
 
-print(steamRec)
+#print(steamRec)
