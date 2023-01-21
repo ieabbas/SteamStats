@@ -14,3 +14,7 @@ Initial Use Case:
 v0.1
 - Tool prints total games owned to console
 - Tool prints name of game and playtime converted into hours
+
+v0.2
+- Tool outputs total games name where user has above 0 seconds of playtime in game to local CSV file
+- Tool outputs total game playtime where where user has above 0 seconds of playtime to local CSV file
