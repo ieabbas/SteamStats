@@ -8,8 +8,7 @@ A tool to pull user and game information from Valve's Steam platform.
 Required: SteamID and Steam Web API Key
 
 Initial Use Case:
-- Pull list of owned games + number of hours each game has been played
-- Convert to JSON --> CSV to manually populate a Google Sheet
+Proof of concept to write custom tool for Steam games pull. (1/3 platform scripts)
 
 v0.1
 - Tool prints total games owned to console
