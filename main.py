@@ -29,7 +29,7 @@ def getOwnedGames():
     #Output total games owned
     print("Cherrius owns a total of " + totalGames + " games")
 
-    #Some logic for retrieveing games from user account with over 0 seconds of playtime
+    #Some logic for retrieving games from user account with over 0 seconds of playtime
     steamGame = ""
     steamGames = []
 
