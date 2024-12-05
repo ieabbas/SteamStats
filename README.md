@@ -1,4 +1,4 @@
-# CherrySteam
+# SteamStats
 A tool to pull user and game information from Valve's Steam platform. 
 
 <b><u>References</u></b>
